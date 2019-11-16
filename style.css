@@ -1,0 +1,49 @@
+body {
+    background-color: lightcoral;
+    margin: 0;
+    padding: 0;
+}
+
+.so_far {
+    display: grid;
+    grid-template-columns: 1fr 1rem 1fr 1rem 1fr;
+}
+
+.so_far__header {
+    grid-column: span 5;
+}
+
+.so_far__card {
+    background-color: white;
+    border-radius: 0.25rem;
+    padding: 0.5rem;
+    margin: 0.25rem;
+}
+
+.terrarium {
+    background-color: green;
+}
+
+.treasure_hunt {
+    background-color: gold;
+}
+
+.archery_tag {
+    background-color: burlywood;
+}
+
+.coming_up {
+    display: grid;
+    grid-template-columns: 1fr 1rem 1fr 1rem 1fr;
+}
+
+.coming_up__header {
+    grid-column: span 5;
+}
+
+.coming_up__info_card {
+    background-color: white;
+    border-radius: 0.25rem;
+    padding: 0.5rem;
+    margin: 0.25rem;
+}
