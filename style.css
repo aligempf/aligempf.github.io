@@ -58,10 +58,11 @@ p {
     cursor: pointer;
 }
 .vis button:hover {
-    background-color: #37474F
+    background-color: #37474F;
 }
 .vis button:active {
-    background-color: #37474F
+    background-color: #37474F;
+    color: black;
 }
 
 .hidden {
